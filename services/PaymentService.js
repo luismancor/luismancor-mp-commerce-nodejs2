@@ -59,11 +59,11 @@ class PaymentService {
         installments: 6
       },
       back_urls: {
-        success: "https://mercadopago-checkout.herokuapp.com/success",
-        pending: "https://mercadopago-checkout.herokuapp.com/pending",
-        failure: "https://mercadopago-checkout.herokuapp.com/error"
+        success: "https://luismancor-mp-commerce-nodejs2.herokuapp.com/success",
+        pending: "https://luismancor-mp-commerce-nodejs2.herokuapp.com/pending",
+        failure: "https://luismancor-mp-commerce-nodejs2.herokuapp.com/error"
       },
-      notification_url: "https://mercadopago-checkout.herokuapp.com/webhook",
+      notification_url: "https://luismancor-mp-commerce-nodejs2.herokuapp.com/webhook",
       auto_return: "approved"
     };
 
